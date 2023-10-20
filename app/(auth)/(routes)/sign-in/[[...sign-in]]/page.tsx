@@ -1,3 +1,4 @@
+import { SignIn } from '@clerk/nextjs'
 import { FC } from 'react'
 
 interface pageProps {
@@ -5,7 +6,7 @@ interface pageProps {
 }
 
 const page: FC<pageProps> = ({ }) => {
-  return <div >Home page</div>
+    return <SignIn />
 }
 
 export default page
