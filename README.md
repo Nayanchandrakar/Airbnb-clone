@@ -1,34 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧑‍💻🧑‍💻 🎉🎉Airbnb clone using Next-Js-13. Prisma Orm Tailwind css typescript  🎉🎉🧑‍💻🧑‍💻
+### 😃😃😃 preview [Airbnb clone](https://airbnb-rent-clone.vercel.app/).
+This website shows my skills , experience and serves as a platform for potential employers and collaborators to learn more about me and my work.
 
-## Getting Started
+![Screenshot (168)](https://github.com/Nayanchandrakar/Airbnb-clone/assets/100008163/2bcc272c-0d20-44e5-ad52-f5827d6e9db1)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+`Prerequisites`
+* Node.js
+* npm
+* pnpm
+
+`Technologies Used`
+* Next JS
+* Prisma Orm
+* Tailwind Css
+* Typescript
+* clerk for authentication
+* Mongodb
+* shadcn UI
+* edge Store
+* React Query
+* Zustand
+* Zod
+* leaflet
+* React Js
+* Node Js
+* Shadcn ui
+* Zustand
+* React Spinner
+* world Countries
+* react day picker
+* date - fns
+
+
+`Features`
+* Responsive design using Tailwind CSS.
+* Schema design with prisma orm
+* Database mongodb is used for scalability
+* use of Tyescript solves build errors
+* Image Optimization using Next Js Image component.
+* Image upload using edgeStore
+* Leaflet js Integration for Map feature
+
+
+## Installation
+
+To install and run the application locally, follow these steps:
+
+1. Clone the repository using the following command:
+```
+git clone https://github.com/Nayanchandrakar/Airbnb-clone.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.Navigate to the project directory:
+```
+cd your-repo-name
+```
+3.Install the required packages:
+```
+npm install or yarn add
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4.Add Environment varibales in .env file:
+```
+DATABASE_URL=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+EDGE_STORE_ACCESS_KEY=
+EDGE_STORE_SECRET_KEY=
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+5.Setup prisma :
+```
+npx prisma db push
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+6.Start the development server:
+```
+npm run develop
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+7.Open http://localhost:3000 to view the website in the browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`Credits`
+🧑‍💻🧑‍💻The Project Credit goes to Nayan chandrakar😊😊
